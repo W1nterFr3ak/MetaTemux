@@ -55,7 +55,7 @@ def TechX3():
 def Hax4Us():
 	try:
 		os.system('echo "\\e[4;34mStarting Hax4Us Script----------------------->\\e[0m"')
-		os.system("pkg update && pkg upgrade && pkg install git curl wget nmap -y && \
+		os.system("pkg update && pkg upgrade && pkg install git curl wget ruby nmap -y && \
 					curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh && chmod 777 metasploit.sh && ./metasploit.sh")
 	except KeyboardInterrupt as e:
 		print("\nExiting_*_*_*_*_*_")
@@ -72,7 +72,7 @@ def W1nteFr3ak():
 	elif action.lower() == 'y':
 		os.system('echo "\\e[4;34mConfiguring Repo----------------------->\\e[0m"')
 		os.system("apt update && apt upgrade && pkg install git && git clone https://gitlab.com/st42/termux-sudo && cd termux-sudo && \
-						pkg install ncurses-utils && cat sudo > /data/data/com.termux/files/usr/bin/sudo && \
+						pkg install ruby ncurses-utils && cat sudo > /data/data/com.termux/files/usr/bin/sudo && \
 						chmod 700 /data/data/com.termux/files/usr/bin/sudo && pkg install tsu")
 		os.system("pkg upgrade && pkg install wget curl dirmngr gnupg-curl \
 						autoconf automake bison bzip2 clang cmake coreutils diffutils flex gawk git grep \
