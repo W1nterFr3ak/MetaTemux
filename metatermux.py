@@ -6,9 +6,9 @@ def verluchie():
 	try:
 		
 		os.system('echo "\\e[4;34mStarting verluchie Script----------------------->\\e[0m"')
-		os.system('apt install autoconf bison clang coreutils curl findutils git apr apr-util libffi-dev \
-					libgmp-dev libpcap-dev postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev \
-					libxslt-dev ncurses-dev pkg-config postgresql-contrib wget make ruby-dev libgrpc-dev ncurses-utils termux-tools gem -y')
+		os.system('apt install autoconf bison clang coreutils curl findutils git apr apr-util libffi \
+					libgmp libpcap postgresql readline libsqlite openssl libtool libxml2 \
+					libxslt ncurses pkg-config postgresql wget make ruby libgrpc ncurses-utils termux-tools gem -y')
 		os.system('echo "####################################"')
 		os.system('echo "Downloading & Extracting....."')
 		
@@ -86,8 +86,8 @@ def main():
 	os.system('echo "\\e[1;34m Created By W1nterFr3ak\\e[0m"')
 	os.system('echo "\\e[1;32m 60% credits goes to you;;; \\e[0m"')
 	os.system('echo "\\e[1;32m Mail: WinterFreak@protonmaail.comm \\e[0m"')
-	print('\n\n')
-	print("Thier are various  methods to install metasploit here are  some  from  popular 1337s")
+	print('\n')
+	print("Their are various  methods to install metasploit here are  some  from  popular 1337s")
 	os.system('echo "\\e[1;34m 1) verluchie\\e[0m"')
 	os.system('echo "\\e[1;34m 2) R3tr0Gh0s7\\e[0m"')
 	os.system('echo "\\e[1;34m 3) TechX3\\e[0m"')
