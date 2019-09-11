@@ -93,9 +93,9 @@ def W1nteFr3ak():
 						autoconf automake bison bzip2 clang cmake coreutils diffutils flex gawk git grep \
 						gzip libtool make patch perl sed silversearcher-ag tar && \
 						apt-key adv --keyserver pgp.mit.edu --recv A46BE53C &&  mkdir -p $PREFIX/etc/apt/sources.list.d && \
-						apt-key adv --keyserver pgp.mit.edu --recv A46BE53C")
+						apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 379CE192D401AB61")
 		os.system('echo "deb [trusted=yes] https://grimler.se root stable" > $PREFIX/etc/apt/sources.list.d/termux-root.list && apt update')
-		
+		verluchie()
 		
 def main():
 	os.system('echo "\\e[1;34m Created By W1nterFr3ak\\e[0m"')
