@@ -6,9 +6,9 @@ def verluchie():
 	try:
 		
 		os.system('echo "\\e[4;34mStarting verluchie Script----------------------->\\e[0m"')
-		os.system('apt install autoconf bison clang coreutils curl findutils git apr apr-util libffi \
+		os.system('apt install autoconf bison gem ruby clang coreutils curl findutils git apr apr-util libffi \
 					libgmp libpcap postgresql readline libsqlite openssl libtool libxml2 \
-					libxslt ncurses pkg-config postgresql wget make ruby libgrpc ncurses-utils termux-tools gem -y')
+					libxslt ncurses pkg-config postgresql wget make ruby libgrpc ncurses-utils termux-tools -y')
 		os.system('echo "####################################"')
 		os.system('echo "Downloading & Extracting....."')
 		
@@ -29,7 +29,7 @@ def verluchie():
 def Auxilus():
 	try:
 		os.system('echo "\\e[4;34mStarting Auxilus Script----------------------->\\e[0m"')
-		os.system("pkg update && pkg upgrade -y && pkg install curl wget tsu wget git && wget Auxilus.github.io/metasploit.sh && bash metasploit.sh ")
+		os.system("pkg update && pkg upgrade -y && pkg install curl ruby gem wget tsu wget git && wget Auxilus.github.io/metasploit.sh && bash metasploit.sh ")
 	except KeyboardInterrupt as e:
 		print("\nExiting_*_*_*_*_*_")
 		sys.exit(1)
@@ -37,7 +37,7 @@ def Auxilus():
 def R3tr0Gh0s7():
 	try:
 		os.system('echo "\\e[4;34mStarting R3tr0Gh0s7 Script----------------------->\\e[0m"')
-		os.system("apt update && apt upgrade && apt install unstable-repo && apt install metasploit")
+		os.system("apt update && apt upgrade && apt install unstable-repo gem ruby && apt install metasploit")
 	except Exception as e:
 		print("\nExiting_*_*_*_*_*_")
 		sys.exit(1)
@@ -45,7 +45,7 @@ def R3tr0Gh0s7():
 def TechX3():
 	try:
 		os.system('echo "\\e[4;34mStarting TechX-3 Script----------------------->\\e[0m"')
-		os.system("apt update && apt upgrade && apt install curl && \
+		os.system("apt update && apt upgrade && apt install ruby gem curl && \
 						curl -LO raw.githubusercontent.com/1Tech-X/Metasploit-4.16.12/master/metasploit.sh && \
 						chmod 777 metasploit.sh && sh metasploit.sh")
 	except KeyboardInterrupt as e:
@@ -71,8 +71,8 @@ def W1nteFr3ak():
 		main()
 	elif action.lower() == 'y':
 		os.system('echo "\\e[4;34mConfiguring Repo----------------------->\\e[0m"')
-		os.system("apt update && apt upgrade && pkg install git && git clone https://gitlab.com/st42/termux-sudo && cd termux-sudo && \
-						pkg install ruby ncurses-utils && cat sudo > /data/data/com.termux/files/usr/bin/sudo && \
+		os.system("apt update && apt upgrade && pkg install git ruby && git clone https://gitlab.com/st42/termux-sudo && cd termux-sudo && \
+						pkg install  ncurses-utils && cat sudo > /data/data/com.termux/files/usr/bin/sudo && \
 						chmod 700 /data/data/com.termux/files/usr/bin/sudo && pkg install tsu")
 		os.system("pkg upgrade && pkg install wget curl dirmngr gnupg-curl \
 						autoconf automake bison bzip2 clang cmake coreutils diffutils flex gawk git grep \
@@ -89,7 +89,7 @@ def main():
 	print('\n')
 	print("Their are various  methods to install metasploit here are  some  from  popular 1337s")
 	os.system('echo "\\e[1;34m 1) verluchie\\e[0m"')
-	os.system('echo "\\e[1;34m 2) R3tr0Gh0s7\\e[0m"')
+	os.system('echo "\\e[1;347m 2) R3tr0Gh0s7\\e[0m"')
 	os.system('echo "\\e[1;34m 3) TechX3\\e[0m"')
 	os.system('echo "\\e[1;34m 4) Hax4Us\\e[0m"')
 	os.system('echo "\\e[1;34m 5) W1nteFr3ak (For beginners Termux Sets Up)\\e[0m"')
