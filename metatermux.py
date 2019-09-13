@@ -6,7 +6,7 @@ def verluchie():
 	try:
 		
 		os.system('echo "\\e[4;34mStarting verluchie Script----------------------->\\e[0m"')
-		os.system('apt install autoconf bison gem ruby clang coreutils curl findutils git apr apr-util libffi \
+		os.system('apt install autoconf bison ruby clang coreutils curl findutils git apr apr-util libffi \
 					libgmp libpcap postgresql readline libsqlite openssl libtool libxml2 \
 					libxslt ncurses pkg-config postgresql wget make ruby libgrpc ncurses-utils termux-tools -y')
 		os.system('echo "####################################"')
@@ -37,7 +37,7 @@ def Auxilus():
 def R3tr0Gh0s7():
 	try:
 		os.system('echo "\\e[4;34mStarting R3tr0Gh0s7 Script----------------------->\\e[0m"')
-		os.system("apt update && apt upgrade && apt install unstable-repo gem ruby && apt install metasploit")
+		os.system("apt update && apt upgrade && apt install unstable-repo ruby && apt install metasploit")
 	except Exception as e:
 		print("\nExiting_*_*_*_*_*_")
 		sys.exit(1)
@@ -45,7 +45,7 @@ def R3tr0Gh0s7():
 def TechX3():
 	try:
 		os.system('echo "\\e[4;34mStarting TechX-3 Script----------------------->\\e[0m"')
-		os.system("apt update && apt upgrade && apt install ruby gem curl && \
+		os.system("apt update && apt upgrade && apt install ruby curl && \
 						curl -LO raw.githubusercontent.com/1Tech-X/Metasploit-4.16.12/master/metasploit.sh && \
 						chmod 777 metasploit.sh && sh metasploit.sh")
 	except KeyboardInterrupt as e:
