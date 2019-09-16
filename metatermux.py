@@ -4,7 +4,7 @@ import sys
 
 def verluchie():
 	try:
-		
+		#clean this code remove redundant packages
 		os.system('echo "\\e[4;34mStarting verluchie Script----------------------->\\e[0m"')
 		os.system('apt install autoconf bison ruby clang coreutils curl findutils git apr apr-util libffi \
 					libgmp libpcap postgresql readline libsqlite openssl libtool libxml2 \
@@ -36,6 +36,7 @@ def Auxilus():
 		
 def R3tr0Gh0s7():
 	try:
+		#this is broken abit to be debugged
 		os.system('echo "\\e[4;34mStarting R3tr0Gh0s7 Script----------------------->\\e[0m"')
 		os.system("apt update && apt upgrade && apt install unstable-repo ruby && apt install metasploit")
 	except Exception as e:
