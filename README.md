@@ -1,4 +1,6 @@
-# MetaTermux
+# MetaTermux -
+## sorry due to dead repos scripts may break
+## worry not an update is due soon
 This is to help ease setup of termux and installation of metasploit 
 
 ***Usage***
